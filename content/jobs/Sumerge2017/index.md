@@ -1,7 +1,7 @@
 ---
 date: '2017-04-01'
 title: 'Associate Software Quality Engineer'
-company: 'Sumerge'
+company: 'Sumerge/ASQE'
 location: 'Cairo, EG'
 range: 'Apr 2017 - Mar 2018'
 url: 'https://sumerge.com/'

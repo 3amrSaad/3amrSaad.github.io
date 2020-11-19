@@ -1,7 +1,7 @@
 ---
 date: '2010-12-01'
 title: 'Co-Founder & Financial Chief Officer (CFO)'
-company: 'Simpion'
+company: 'Simpion/CFO'
 location: 'Cairo, EG'
 range: 'Dec 2010 - Jul 2012'
 url: ''
