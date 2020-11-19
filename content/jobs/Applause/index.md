@@ -1,7 +1,7 @@
 ---
 date: '2016-03-01'
 title: 'Software Test Engineer'
-company: 'Applause'
+company: 'Applause/STE'
 location: 'Cairo, EG'
 range: 'Mar 2016 - Present'
 url: 'https://www.applause.com/'
