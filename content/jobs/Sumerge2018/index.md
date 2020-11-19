@@ -1,7 +1,8 @@
 ---
 date: '2018-03-01'
 title: 'Software Quality Engineer'
-company: 'Sumerge/SQE'
+companyPosition: 'Sumerge/SQE'
+company: 'Sumerge'
 location: 'Cairo, EG'
 range: 'Mar 2018 - Feb 2020'
 url: 'https://sumerge.com/'

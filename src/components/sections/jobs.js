@@ -164,6 +164,7 @@ const Jobs = () => {
           node {
             frontmatter {
               title
+              companyPosition
               company
               location
               range
@@ -226,7 +227,7 @@ const Jobs = () => {
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={onKeyDown}>
           {jobsData &&
             jobsData.map(({ node }, i) => {
-              const { company } = node.frontmatter;
+              const { companyPosition } = node.frontmatter;
               return (
                 <li key={i}>
                   <StyledTabButton
@@ -238,7 +239,7 @@ const Jobs = () => {
                     aria-selected={activeTabId === i ? true : false}
                     aria-controls={`panel-${i}`}
                     tabIndex={activeTabId === i ? '0' : '-1'}>
-                    <span>{company}</span>
+                    <span>{companyPosition}</span>
                   </StyledTabButton>
                 </li>
               );
