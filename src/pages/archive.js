@@ -147,7 +147,7 @@ const ArchivePage = ({ location, data }) => {
       <main>
         <header ref={revealTitle}>
           <h1 className="big-heading">Archive</h1>
-          <p className="subtitle">A big list of things I’ve worked on</p>
+          <p className="subtitle">A small list of things I’ve accomplished</p>
         </header>
 
         <StyledTableContainer ref={revealTable}>
@@ -156,8 +156,8 @@ const ArchivePage = ({ location, data }) => {
               <tr>
                 <th>Year</th>
                 <th>Title</th>
-                <th className="hide-on-mobile">Made at</th>
-                <th className="hide-on-mobile">Built with</th>
+                <th className="hide-on-mobile">Company/Issuing Organization</th>
+                <th className="hide-on-mobile">Tags</th>
                 <th>Link</th>
               </tr>
             </thead>
@@ -236,6 +236,7 @@ ArchivePage.propTypes = {
 
 export default ArchivePage;
 
+// Removed android and ios as I am not using them
 export const pageQuery = graphql`
   {
     allMarkdownRemark(
@@ -250,8 +251,6 @@ export const pageQuery = graphql`
             tech
             github
             external
-            ios
-            android
             company
           }
           html

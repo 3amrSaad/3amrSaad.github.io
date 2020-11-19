@@ -78,6 +78,14 @@ const StyledProject = styled.div`
       }
     }
 
+    .certificate {
+      color: var(--red);
+      svg {
+        width: 40px;
+        height: 40px;
+      }
+    }
+
     .project-links {
       margin-right: -10px;
       color: var(--light-slate);
@@ -172,7 +180,7 @@ const Projects = () => {
 
   return (
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
+      <h2 ref={revealTitle}>Projects and Certificates</h2>
 
       <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
         view the archive
@@ -200,8 +208,8 @@ const Projects = () => {
                   <div className="project-inner">
                     <header>
                       <div className="project-top">
-                        <div className="folder">
-                          <Icon name="Folder" />
+                        <div className="certificate">
+                          <Icon name="Certificate" />
                         </div>
                         <div className="project-links">
                           {github && (

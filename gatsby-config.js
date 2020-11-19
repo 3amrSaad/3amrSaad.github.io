@@ -5,7 +5,7 @@ module.exports = {
     title: 'Amr Saad',
     description:
       'Amr Saad is a QA Engineer specializing in Test Automation.',
-    siteUrl: 'https://brittanychiang.com', // TODO Add My Domain, No trailing slash allowed!
+    siteUrl: 'https://3amrsaad.github.io', // TODO Add My Domain, No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     linkedinProfile: 'https://www.linkedin.com/in/3amrSaad',
   },

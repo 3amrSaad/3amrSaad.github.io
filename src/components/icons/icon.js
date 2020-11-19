@@ -5,6 +5,7 @@ import {
   IconUpwork,
   IconExternal,
   IconFolder,
+  IconCertificate,
   IconFork,
   IconGitHub,
   IconFacebook,
@@ -28,6 +29,8 @@ const Icon = ({ name }) => {
       return <IconExternal />;
     case 'Folder':
       return <IconFolder />;
+    case 'Certificate':
+      return <IconCertificate />;
     case 'Fork':
       return <IconFork />;
     case 'GitHub':
