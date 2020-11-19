@@ -1,7 +1,8 @@
 ---
 date: '2020-02-01'
 title: 'Staff Software Quality Engineer'
-company: 'Sumerge/SSQE'
+companyPosition: 'Sumerge/SSQE'
+company: 'Sumerge'
 location: 'Cairo, EG'
 range: 'Feb 2020 - Present'
 url: 'https://sumerge.com/'
