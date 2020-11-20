@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://3amrsaad.github.io/sitemap.xml
-Host: https://3amrsaad.github.io
+Sitemap: https://3amrsaad.com/sitemap.xml
+Host: https://3amrsaad.com
