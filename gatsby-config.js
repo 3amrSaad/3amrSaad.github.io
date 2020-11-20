@@ -3,8 +3,7 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: 'Amr Saad',
-    description:
-      'Amr Saad is a QA Engineer specializing in Test Automation.',
+    description: 'Amr Saad is a QA Engineer specializing in Test Automation.',
     siteUrl: 'https://3amrsaad.com', // TODO Add My Domain, No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     linkedinProfile: 'https://www.linkedin.com/in/3amrSaad',
@@ -149,9 +148,14 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: 'G-3BQTZWT40J',
+        trackingIds: [
+          'G-3BQTZWT40J', // Google Analytics / GA
+        ],
+        pluginConfig: {
+          head: true,
+        },
       },
     },
   ],
