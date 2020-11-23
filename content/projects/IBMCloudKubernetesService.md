@@ -1,6 +1,6 @@
 ---
 date: '2020-03-01'
-title: 'IBM Cloud Kubernetes Service'
+title: 'IBM - Cloud Kubernetes Service'
 github: ''
 external: 'https://www.youracclaim.com/badges/1f13250d-8023-4afe-95c7-b4fb8ec5e1cc/linked_in_profile'
 tech:

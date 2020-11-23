@@ -47,11 +47,19 @@ const Hero = () => {
 
   const one = (
     <h1 className="big-heading">
-      Hi, I<span className="huge-heading">'</span>m
+      Hi<span className="huge-heading">,</span> I<span className="huge-heading">'</span>m
     </h1>
   );
-  const two = <h1 className="big-heading">Amr Saad.</h1>;
-  const three = <h3 className="medium-heading">I ensure things don't break.</h3>;
+  const two = (
+    <h1 className="big-heading">
+      Amr Saad<span className="huge-heading">.</span>
+    </h1>
+  );
+  const three = (
+    <h3 className="medium-heading">
+      I ensure things don't break<span className="huge-heading">.</span>
+    </h3>
+  );
   const four = <p>I'm a QA/SDET Engineer based in Cairo, EG.</p>;
   const five = (
     <a href={`mailto:${email}`} className="email-link">

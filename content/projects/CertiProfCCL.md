@@ -1,6 +1,6 @@
 ---
 date: '2020-08-01'
-title: 'CertiProf Continuous Learner (CCL)'
+title: 'CertiProf - Continuous Learner (CCL)'
 github: ''
 external: 'https://www.youracclaim.com/badges/131e7b9d-a595-4f7e-a66f-69d106b96118?source=linked_in_profile'
 tech:

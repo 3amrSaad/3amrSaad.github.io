@@ -1,6 +1,6 @@
 ---
 date: '2020-07-01'
-title: 'UC San Diego Algorithmic Toolbox'
+title: 'UC San Diego - Algorithmic Toolbox'
 github: ''
 external: 'https://www.coursera.org/account/accomplishments/certificate/63JR39YDYPDK'
 tech:
