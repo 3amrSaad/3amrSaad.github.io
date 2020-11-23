@@ -1,6 +1,6 @@
 ---
 date: '2017-06-01'
-title: 'ISTQB Certified Tester Foundation Level (CTFL)'
+title: 'ISTQB - Certified Tester Foundation Level (CTFL)'
 github: ''
 external: 'https://www.istqb.org/'
 tech:

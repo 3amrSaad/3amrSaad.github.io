@@ -1,6 +1,6 @@
 ---
 date: '2020-05-01'
-title: 'IBM Enterprise Design Thinking Practitioner'
+title: 'IBM - Enterprise Design Thinking Practitioner'
 github: ''
 external: 'https://www.youracclaim.com/badges/aed01913-49ea-46bc-80f8-51c3c7e9bb5b/linked_in_profile'
 tech:
