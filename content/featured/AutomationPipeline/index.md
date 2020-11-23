@@ -13,4 +13,4 @@ tech:
 showInProjects: true
 ---
 
-A scalable Page Object Model Automation Framework with features like HTML Report Generation with every Build, Tests Parallel Run and Test Data Management more.
+An Automation Pipeline tailored for our process, which spans from the Development until Production.

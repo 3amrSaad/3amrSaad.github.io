@@ -132,7 +132,22 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Selenium & Appium', 'Java', 'REST Assured', 'Docker', 'JMeter', 'Kubernetes', 'SoapUI & Postman', 'Selenium Grid'];
+  const skills = [
+    'Selenium',
+    'Java',
+    'REST Assured',
+    'HTML',
+    'Docker',
+    'CSS',
+    'JMeter',
+    'JS',
+    'Kubernetes',
+    'SoapUI',
+    'Appium',
+    'Selenium Grid',
+    'Python',
+    'Postman',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,26 +156,33 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Amr, a QA Engineer based in Cairo, EG.</p>
+            <p>Hello! I'm Amr, a QA/SDET Engineer based in Cairo, EG.</p>
 
             <p>
-              Exceptionally talented and well-organized QA Engineer. Demonstrated expertise in working with Development Teams to troubleshoot issues that arise with testing applications and working with Business Analysts to comprehend and contribute to business user functional processes.
+              Exceptionally talented and well-organized QA/SDET Engineer. Demonstrated expertise in
+              working with Development Teams to troubleshoot issues that arise with testing
+              applications and working with Business Analysts to comprehend and contribute to
+              business user functional processes.
             </p>
 
             <p>
-              Self-motivated and dependable with extensive exposure to determining, preparing and maintaining quality test strategies, designing test frameworks, and developing correlating test scripts, to ensure quality at each level of assigned projects.
+              Self-motivated and dependable with extensive exposure to determining, preparing and
+              maintaining quality test strategies, designing test frameworks, and developing
+              correlating test scripts, to ensure quality at each level of assigned projects.
             </p>
 
             <p>
-              My interests span a broad range of topics like Software Testing, Software Security, Quality Assurance, Big Data, Network Security and Cloud Computing Security.
-              I'm willing to learn new technologies, languages and skills, and looking forward to have new challenges.
+              My interests span a broad range of topics like Software Testing, Test Automation,
+              Software Security, Quality Assurance, Big Data, Network Security and Cloud Computing
+              Security. I'm willing to learn new technologies, languages and skills, and looking
+              forward to have new challenges.
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://eng.asu.edu.eg/">Ain Shams University</a>, I joined the
-              engineering team at <a href="https://sumerge.com/">Sumerge</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              Shortly after graduating from Computer & Systems Engineering in{' '}
+              <a href="https://eng.asu.edu.eg/">Ain Shams University</a>, I joined the engineering
+              team at <a href="https://sumerge.com/">Sumerge</a> where I work on a wide variety of
+              interesting and meaningful projects on a daily basis.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
