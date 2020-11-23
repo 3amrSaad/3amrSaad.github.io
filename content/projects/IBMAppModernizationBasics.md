@@ -11,5 +11,4 @@ company: 'IBM'
 showInProjects: true
 ---
 
-
-Badge earners understand concepts of containers, container orchestration, and Kubernetes. They demonstrate knowledge of legacy app migration methods, microservices architecture, and the twelve-factor app methodology for building cloud native apps. They can describe the steps involved in the replatform, repackage, and refactor modernization approaches.
+Badge earners understand concepts of containers, container orchestration, and Kubernetes. They demonstrate knowledge of legacy app migration methods, microservices architecture, and the twelve-factor app methodology for building cloud native apps.

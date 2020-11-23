@@ -12,5 +12,4 @@ company: 'IBM'
 showInProjects: true
 ---
 
-
 The badge earner understands core concepts of Kubernetes: VMs vs. containers, Kubernetes architectural model, key resources, and pods. The individual also knows how to build a Docker image and deploy an app on Kubernetes in the IBM Cloud Kubernetes Service. Read more about it on [IBM Cloud Kubernetes](https://www.ibm.com/eg-en/cloud/container-service).

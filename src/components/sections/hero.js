@@ -11,11 +11,9 @@ const StyledHeroSection = styled.section`
   min-height: 100vh;
 
   h1 {
-    margin: 0 0 30px 4px;
-    color: var(--red);
-    font-family: var(--font-serif);
-    font-size: clamp(var(--fz-heading), 5vw, var(--fz-heading));
-    font-weight: 400;
+    margin-top: 10px;
+    color: var(--slate);
+    line-height: 0.9;
 
     @media (max-width: 480px) {
       margin: 0 0 20px 2px;
@@ -47,14 +45,14 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h3 className="big-heading">Hi, I<span className="huge-heading">'</span>m</h3>;
-  const two = <h3 className="big-heading">Amr Saad.</h3>;
-  const three = <h3 className="medium-heading">I ensure things don't break.</h3>;
-  const four = (
-    <p>
-      I'm a QA Engineer based in Cairo, EG.
-    </p>
+  const one = (
+    <h1 className="big-heading">
+      Hi, I<span className="huge-heading">'</span>m
+    </h1>
   );
+  const two = <h1 className="big-heading">Amr Saad.</h1>;
+  const three = <h3 className="medium-heading">I ensure things don't break.</h3>;
+  const four = <p>I'm a QA/SDET Engineer based in Cairo, EG.</p>;
   const five = (
     <a href={`mailto:${email}`} className="email-link">
       Get In Touch
