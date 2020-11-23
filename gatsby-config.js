@@ -2,7 +2,7 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Amr Saad',
+    title: 'Amr Saad | QA Engineer',
     description: 'Amr Saad is a QA Engineer specializing in Test Automation.',
     siteUrl: 'https://3amrsaad.com', // TODO Add My Domain, No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
