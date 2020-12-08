@@ -90,11 +90,7 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <div>
-          Copyright © 2020 -
-          <a href="https://github.com/bchiang7/v4"> Original Design by Brittany Chiang </a>-
-          Customized by Amr Saad
-        </div>
+        <div>Copyright © 2020 - Original Design by Brittany Chiang - Customized by Amr Saad</div>
       </StyledCredit>
     </StyledFooter>
   );
