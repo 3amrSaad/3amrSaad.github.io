@@ -11,6 +11,8 @@ url: 'https://sumerge.com/'
 As Staff Software Quality Engineer for Sumerge, I work on a wide variety of projects. My job consists of leading different teams across multiple accounts, and Mentoring them to succeed in achieving their personal and professional goals.
 
 #### Responsibilities:
+
+- Coach, mentor, and develop staff, including providing career development planning and opportunities.
 - Review requirements, specifications and technical design documents to provide timely and meaningful feedback
 - Perform Ambiguity analysis on Product’s Software Requirements Specification Document
 - Create detailed, comprehensive and well-structured Test Plans and Test Cases
