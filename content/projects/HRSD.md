@@ -1,5 +1,5 @@
 ---
-date: '2017-04-01'
+date: '2019-07-01'
 title: 'Ministry of Human Resources and Social Development (HRSD)'
 github: ''
 external: 'https://sumerge.com/'
