@@ -188,6 +188,12 @@ const GlobalStyle = createGlobalStyle`
     font-size: clamp(30px, 7vw, 70px);
   }
 
+  .small-heading {
+    margin: 0;
+    color: var(--red);
+    font-size: clamp(30px, 7vw, 70px);
+  }
+
   .numbered-heading {
     display: flex;
     align-items: center;

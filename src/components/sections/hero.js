@@ -57,8 +57,8 @@ const Hero = () => {
   );
   const three = (
     <h3 className="medium-heading">
-      I ensure things don<span className="huge-heading">'</span>t break
-      <span className="huge-heading">.</span>
+      I ensure things don<span className="small-heading">'</span>t break
+      <span className="small-heading">.</span>
     </h3>
   );
   const four = <p>I'm a QA/SDET Engineer based in Cairo, EG.</p>;
