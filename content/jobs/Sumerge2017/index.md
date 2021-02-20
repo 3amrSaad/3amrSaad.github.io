@@ -4,13 +4,14 @@ title: 'Associate Software Quality Engineer'
 company: 'Sumerge'
 companyPosition: 'Sumerge/ASQE'
 location: 'Cairo, EG'
-range: 'Apr 2017 - Mar 2018'
+range: 'Apr 2017 - Feb 2018'
 url: 'https://sumerge.com/'
 ---
 
 As Associate Software Quality Engineer for Sumerge Software Solutions, I work on a wide variety of projects. My job consists of running manual/automated functional tests in order to validate the solution on different platforms, design or modify the test run when needed, and coordinate with developers and engineers to find solutions with a proactive approach to problems and defects. I also had the opportunity of taking ownership of multiple projects Product's Quality.
 
 #### Responsibilities:
+
 - Review Requirements and Specifications documents to provide timely and meaningful feedback
 - Perform Ambiguity analysis on Product’s Software Requirements Specification Document
 - Create detailed, comprehensive and well-structured Test Cases

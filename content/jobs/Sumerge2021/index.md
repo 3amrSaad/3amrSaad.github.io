@@ -1,18 +1,19 @@
 ---
-date: '2020-01-01'
-title: 'Staff Software Quality Engineer'
-companyPosition: 'Sumerge/SSQE'
+date: '2021-01-01'
+title: 'Lead Quality Engineer'
+companyPosition: 'Sumerge/LQE'
 company: 'Sumerge'
 location: 'Cairo, EG'
-range: 'Jan 2020 - Dec 2020'
+range: 'Jan 2021 - Present'
 url: 'https://sumerge.com/'
 ---
 
-As Staff Software Quality Engineer for Sumerge, I work on a wide variety of projects. My job consists of leading different teams across multiple accounts, and Mentoring them to succeed in achieving their personal and professional goals.
+As a Lead Quality Engineer for Sumerge, I work on a wide variety of projects. My job consists of leading different teams across multiple accounts, and Mentoring them to succeed in achieving their personal and professional goals.
 
 #### Responsibilities:
 
 - Coach, mentor, and develop staff, including providing career development planning and opportunities.
+- Lead the Shift Left Testing Initiative
 - Review requirements, specifications and technical design documents to provide timely and meaningful feedback
 - Perform Ambiguity analysis on Product’s Software Requirements Specification Document
 - Create detailed, comprehensive and well-structured Test Plans and Test Cases
@@ -23,7 +24,7 @@ As Staff Software Quality Engineer for Sumerge, I work on a wide variety of proj
 - Perform Web Services and Load Testing using SoapUI
 - Perform System Integration Testing with external systems
 - Perform User Acceptance Testing and Providing training to business system users
-- Design, develop and execute Automation Scripts using Selenium WebDriver
+  Design, develop and execute Automation Scripts using Selenium WebDriver
 - Develop, Improve and Apply testing processes for new and existing products to meet client needs
 - Liaise with internal teams (e.g. Developers, Product Managers & Business Analysts) to identify system requirements
 - Investigate the causes of non-conforming software and train users to implement solutions
