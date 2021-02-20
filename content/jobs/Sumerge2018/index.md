@@ -4,13 +4,14 @@ title: 'Software Quality Engineer'
 companyPosition: 'Sumerge/SQE'
 company: 'Sumerge'
 location: 'Cairo, EG'
-range: 'Mar 2018 - Feb 2020'
+range: 'Mar 2018 - Dec 2019'
 url: 'https://sumerge.com/'
 ---
 
 As Software Quality Engineer for Sumerge Software Solutions, I work on a wide variety of projects. My job consists of running Manual/Automated Functional and Non-Functional Tests in order to validate the solution on different platforms, design or modify the test run when needed, and coordinate with developers and engineers to find solutions with a proactive approach to problems and defects. I also had the opportunity of taking ownership of multiple projects Product's Quality.
 
 #### Responsibilities:
+
 - Review requirements, specifications and technical design documents to provide timely and meaningful feedback
 - Perform Ambiguity analysis on Product’s Software Requirements Specification Document
 - Create detailed, comprehensive and well-structured Test Plans and Test Cases
