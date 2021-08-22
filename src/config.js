@@ -10,11 +10,10 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/3amrSaad',
     },
-    // TODO Un-Comment UpWork once there is a Huge Traffic on My Website
-    // {
-    //   name: 'Upwork',
-    //   url: 'https://www.upwork.com/o/profiles/users/~019869fe16b61c255d/',
-    // },
+    {
+      name: 'Upwork',
+      url: 'https://www.upwork.com/o/profiles/users/~019869fe16b61c255d/',
+    },
     {
       name: 'Facebook',
       url: 'https://www.facebook.com/3amrSaad',
