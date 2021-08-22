@@ -60,7 +60,7 @@ const StyledPic = styled.div`
     position: relative;
     width: 100%;
     border-radius: var(--border-radius);
-    background-color: var(--red);
+    background-color: var(--white);
 
     &:hover,
     &:focus {

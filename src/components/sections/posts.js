@@ -6,7 +6,7 @@ import sr from '@utils/sr';
 import { srConfig } from '@config';
 import { Icon } from '@components/icons';
 
-const StyledProject = styled.div`
+const StyledPost = styled.div`
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(12, 1fr);
@@ -25,7 +25,7 @@ const StyledProject = styled.div`
   }
 
   &:nth-of-type(odd) {
-    .project-content {
+    .post-content {
       grid-column: 7 / -1;
       text-align: right;
 
@@ -40,7 +40,7 @@ const StyledProject = styled.div`
         padding: 25px 25px 20px;
       }
     }
-    .project-tech-list {
+    .post-tech-list {
       justify-content: flex-end;
 
       li {
@@ -51,12 +51,12 @@ const StyledProject = styled.div`
         }
       }
     }
-    .project-links {
+    .post-links {
       justify-content: flex-end;
       margin-left: 0;
       margin-right: -10px;
     }
-    .project-image {
+    .post-image {
       grid-column: 1 / 8;
 
       @media (max-width: 768px) {
@@ -65,7 +65,7 @@ const StyledProject = styled.div`
     }
   }
 
-  .project-content {
+  .post-content {
     position: relative;
     grid-column: 1 / 7;
     grid-row: 1 / -1;
@@ -85,7 +85,7 @@ const StyledProject = styled.div`
     }
   }
 
-  .project-overline {
+  .post-overline {
     margin: 10px 0;
     color: var(--red);
     font-family: var(--font-mono);
@@ -93,7 +93,7 @@ const StyledProject = styled.div`
     font-weight: 400;
   }
 
-  .project-title {
+  .post-title {
     color: var(--lightest-slate);
     font-size: clamp(24px, 5vw, 28px);
 
@@ -106,7 +106,7 @@ const StyledProject = styled.div`
     }
   }
 
-  .project-description {
+  .post-description {
     ${({ theme }) => theme.mixins.boxShadow};
     position: relative;
     z-index: 2;
@@ -131,7 +131,7 @@ const StyledProject = styled.div`
     }
   }
 
-  .project-tech-list {
+  .post-tech-list {
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -158,7 +158,7 @@ const StyledProject = styled.div`
     }
   }
 
-  .project-links {
+  .post-links {
     display: flex;
     align-items: center;
     position: relative;
@@ -174,7 +174,7 @@ const StyledProject = styled.div`
     }
   }
 
-  .project-image {
+  .post-image {
     ${({ theme }) => theme.mixins.boxShadow};
     grid-column: 6 / -1;
     grid-row: 1 / -1;
@@ -235,11 +235,11 @@ const StyledProject = styled.div`
   }
 `;
 
-const Featured = () => {
+const Posts = () => {
   const data = useStaticQuery(graphql`
     query {
       featured: allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/featured/" } }
+        filter: { fileAbsolutePath: { regex: "/blogPosts/" } }
         sort: { fields: [frontmatter___date], order: DESC }
       ) {
         edges {
@@ -264,43 +264,43 @@ const Featured = () => {
     }
   `);
 
-  const featuredProjects = data.featured.edges.filter(({ node }) => node);
+  const featuredPosts = data.featured.edges.filter(({ node }) => node);
 
   const revealTitle = useRef(null);
-  const revealProjects = useRef([]);
+  const revealPosts = useRef([]);
   useEffect(() => {
     sr.reveal(revealTitle.current, srConfig());
-    revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
+    revealPosts.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
   }, []);
 
   return (
-    <section id="projects">
+    <section id="posts">
       <h2 className="numbered-heading" ref={revealTitle}>
-        Some Things I’ve Built
+        Some Blogs I’ve Published
       </h2>
 
       <div>
-        {featuredProjects &&
-          featuredProjects.map(({ node }, i) => {
+        {featuredPosts &&
+          featuredPosts.map(({ node }, i) => {
             const { frontmatter, html } = node;
             const { external, title, tech, github, cover } = frontmatter;
 
             return (
-              <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
-                <div className="project-content">
-                  <p className="project-overline">Featured Project</p>
-                  <h3 className="project-title">{title}</h3>
-                  <div className="project-description" dangerouslySetInnerHTML={{ __html: html }} />
+              <StyledPost key={i} ref={el => (revealPosts.current[i] = el)}>
+                <div className="post-content">
+                  <p className="post-overline">Featured Post</p>
+                  <h3 className="post-title">{title}</h3>
+                  <div className="post-description" dangerouslySetInnerHTML={{ __html: html }} />
 
                   {tech.length && (
-                    <ul className="project-tech-list">
+                    <ul className="post-tech-list">
                       {tech.map((tech, i) => (
                         <li key={i}>{tech}</li>
                       ))}
                     </ul>
                   )}
 
-                  <div className="project-links">
+                  <div className="post-links">
                     {github && (
                       <a href={github} aria-label="GitHub Link">
                         <Icon name="GitHub" />
@@ -314,12 +314,12 @@ const Featured = () => {
                   </div>
                 </div>
 
-                <div className="project-image">
+                <div className="post-image">
                   <a href={external ? external : github ? github : '#'}>
                     <Img fluid={cover.childImageSharp.fluid} alt={title} className="img" />
                   </a>
                 </div>
-              </StyledProject>
+              </StyledPost>
             );
           })}
       </div>
@@ -327,4 +327,4 @@ const Featured = () => {
   );
 };
 
-export default Featured;
+export default Posts;
