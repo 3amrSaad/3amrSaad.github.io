@@ -189,7 +189,7 @@ const StyledPost = styled.div`
 
     a {
       width: 100%;
-      background-color: var(--red);
+      background-color: var(--white);
       border-radius: var(--border-radius);
       vertical-align: middle;
 
