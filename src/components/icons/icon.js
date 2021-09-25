@@ -4,6 +4,7 @@ import {
   IconAppStore,
   IconUpwork,
   IconExternal,
+  IconYoutube,
   IconFolder,
   IconCertificate,
   IconFork,
@@ -27,6 +28,8 @@ const Icon = ({ name }) => {
       return <IconUpwork />;
     case 'External':
       return <IconExternal />;
+    case 'Youtube':
+      return <IconYoutube />;
     case 'Folder':
       return <IconFolder />;
     case 'Certificate':

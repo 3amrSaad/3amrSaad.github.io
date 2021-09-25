@@ -2,7 +2,7 @@
 date: '2020-11-01'
 title: 'University of Minnesota - Introduction to Software Testing'
 github: ''
-external: 'https://www.coursera.org/account/accomplishments/certificate/63JR39YDYPDK'
+external: 'https://www.coursera.org/account/accomplishments/certificate/QKAYMCFQEN73'
 tech:
   - TestingTheory
   - TestPlan

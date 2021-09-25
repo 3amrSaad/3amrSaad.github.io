@@ -1,8 +1,7 @@
 ---
-date: '2'
+date: '2021-08-22'
 title: 'Quality Engineer in DevOps'
 cover: './demo.png'
-github: ''
 external: 'https://www.sumerge.com/quality-engineer-in-devops/'
 tech:
   - DevOps

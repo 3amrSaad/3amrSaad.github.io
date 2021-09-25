@@ -235,11 +235,11 @@ const StyledPost = styled.div`
   }
 `;
 
-const Posts = () => {
+const Publications = () => {
   const data = useStaticQuery(graphql`
     query {
       featured: allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/blogPosts/" } }
+        filter: { fileAbsolutePath: { regex: "/publications/" } }
         sort: { fields: [frontmatter___date], order: DESC }
       ) {
         edges {
@@ -254,7 +254,7 @@ const Posts = () => {
                 }
               }
               tech
-              github
+              youtube
               external
             }
             html
@@ -276,14 +276,14 @@ const Posts = () => {
   return (
     <section id="posts">
       <h2 className="numbered-heading" ref={revealTitle}>
-        Some Blogs I’ve Published
+        Some Things I’ve Published
       </h2>
 
       <div>
         {featuredPosts &&
           featuredPosts.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover } = frontmatter;
+            const { external, title, tech, youtube, cover } = frontmatter;
 
             return (
               <StyledPost key={i} ref={el => (revealPosts.current[i] = el)}>
@@ -301,9 +301,9 @@ const Posts = () => {
                   )}
 
                   <div className="post-links">
-                    {github && (
-                      <a href={github} aria-label="GitHub Link">
-                        <Icon name="GitHub" />
+                    {youtube && (
+                      <a href={youtube} aria-label="Youtube Link">
+                        <Icon name="Youtube" />
                       </a>
                     )}
                     {external && (
@@ -315,7 +315,7 @@ const Posts = () => {
                 </div>
 
                 <div className="post-image">
-                  <a href={external ? external : github ? github : '#'}>
+                  <a href={external ? external : youtube ? youtube : '#'}>
                     <Img fluid={cover.childImageSharp.fluid} alt={title} className="img" />
                   </a>
                 </div>
@@ -327,4 +327,4 @@ const Posts = () => {
   );
 };
 
-export default Posts;
+export default Publications;
